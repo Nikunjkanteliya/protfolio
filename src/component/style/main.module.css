@@ -108,3 +108,25 @@ a{
        
           
 }
+@media(max-width: 480px) {
+.allsvg{
+  width: 100%;
+  position: relative;
+text-align: center;
+top: 3rem;
+  
+  
+}
+
+.intro{
+    flex-direction: column;
+    width: 100%;
+   margin-left: 0.5rem;
+    
+}
+.btndiv{
+    margin-left: 5rem;
+    
+}
+
+}

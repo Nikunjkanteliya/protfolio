@@ -53,3 +53,23 @@
     font-size: 5rem;
     
 }
+
+@media (max-width: 480px) {
+  .maindivabout{
+    text-align: center;
+  }
+  .about{
+      position: relative;
+      top: -8rem;
+   margin-left: 2rem;
+  }
+ .aboutpt{
+  width: 80%;
+  /* /* max-width: 300px; */
+  margin-left: 2.6rem;
+  margin-top: -5rem; 
+ }
+ .icons{
+  flex-direction: column;
+ }
+}

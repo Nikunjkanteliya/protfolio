@@ -9,7 +9,7 @@ class DemoCarousel extends Component {
     return (
       <div >
         <Carousel
-        className={style.car}
+        className={style.car1}
           showThumbs = {false}
           autoPlay={true}
           infiniteLoop={true}

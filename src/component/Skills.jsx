@@ -20,7 +20,7 @@ const Skills = () => {
       <div className={style.maindivskill}>
         <span className={style.skills}>Skills</span>
         <div className={style.skillicons}>
-          <span>
+          <span className={style.mar}>
             <FaReact style={{ fontSize: "40px" }} /> <br />
             <span
               style={{ fontSize: "20px", fontWeight: "500", color: "#2836b1" }}
@@ -28,7 +28,7 @@ const Skills = () => {
               React.js
             </span>
           </span>
-          <span>
+          <span className={style.mar}>
             {" "}
             <SiTypescript style={{ fontSize: "40px" }} /> <br />
             <span
@@ -38,7 +38,7 @@ const Skills = () => {
             </span>
           </span>
 
-          <span>
+          <span className={style.mar}>
             <IoPeopleOutline style={{ fontSize: "40px" }} /> <br />
             <span
               style={{ fontSize: "20px", fontWeight: "500", color: "#2836b1" }}
@@ -52,7 +52,7 @@ const Skills = () => {
         {/* --------------------------------------------- */}
 
         <div className={style.skillicons}>
-          <span>
+          <span className={style.mar}>
             <SiJavascript style={{ fontSize: "40px" }} /> <br />
             <span
               style={{ fontSize: "20px", fontWeight: "500", color: "#2836b1" }}
@@ -60,7 +60,7 @@ const Skills = () => {
               JavaScript
             </span>
           </span>
-          <span>
+          <span className={style.mar}>
             {" "}
             <FaGitSquare style={{ fontSize: "40px" }} /> <br />
             <span
@@ -70,7 +70,7 @@ const Skills = () => {
             </span>
           </span>
 
-          <span>
+          <span className={style.mar}>
             <BsFillQuestionCircleFill style={{ fontSize: "40px" }} /> <br />
             <span
               style={{ fontSize: "20px", fontWeight: "500", color: "#2836b1" }}
@@ -84,7 +84,7 @@ const Skills = () => {
         {/* -------------------------------------------- */}
 
         <div className={style.skillicons}>
-          <span>
+          <span className={style.mar}>
             <ImHtmlFive style={{ fontSize: "40px" }} /> <br />
             <span
               style={{ fontSize: "20px", fontWeight: "500", color: "#2836b1" }}
@@ -92,7 +92,7 @@ const Skills = () => {
               HTML
             </span>
           </span>
-          <span>
+          <span className={style.mar}>
             {" "}
             <FiFigma style={{ fontSize: "40px" }} /> <br />
             <span
@@ -102,7 +102,7 @@ const Skills = () => {
             </span>
           </span>
 
-          <span>
+          <span className={style.mar}>
             <IoPeopleOutline style={{ fontSize: "40px" }} /> <br />
             <span
               style={{ fontSize: "20px", fontWeight: "500", color: "#2836b1" }}
@@ -115,7 +115,7 @@ const Skills = () => {
 
         {/* --------------------------------- */}
         <div className={style.skillicons}>
-          <span>
+          <span className={style.mar}>
             <TbBrandRedux style={{ fontSize: "40px" }} /> <br />
             <span
               style={{ fontSize: "20px", fontWeight: "500", color: "#2836b1" }}
@@ -123,7 +123,7 @@ const Skills = () => {
               Redux.js
             </span>
           </span>
-          <span>
+          <span className={style.mar}>
             {" "}
             <IoLogoCss3 style={{ fontSize: "40px" }} /> <br />
             <span
@@ -133,7 +133,7 @@ const Skills = () => {
             </span>
           </span>
 
-          <span>
+          <span className={style.mar}>
             <IoPeopleOutline style={{ fontSize: "40px" }} /> <br />
             <span
               style={{ fontSize: "20px", fontWeight: "500", color: "#2836b1" }}
@@ -145,7 +145,7 @@ const Skills = () => {
         </div>
         {/* ////////////////////////////////// */}
         <div className={style.skillicons}>
-          <span>
+          <span className={style.mar}>
             <IoLogoFirebase style={{ fontSize: "40px" }} /> <br />
             <span
               style={{ fontSize: "20px", fontWeight: "500", color: "#2836b1" }}
@@ -153,7 +153,7 @@ const Skills = () => {
               Firebase
             </span>
           </span>
-          <span>
+          <span className={style.mar}>
             {" "}
             <FaBootstrap style={{ fontSize: "40px" }} /> <br />
             <span
@@ -163,7 +163,7 @@ const Skills = () => {
             </span>
           </span>
 
-          <span>
+          <span className={style.mar}>
             <AiTwotoneApi style={{ fontSize: "40px" }} /> <br />
             <span
               style={{ fontSize: "20px", fontWeight: "500", color: "#2836b1" }}

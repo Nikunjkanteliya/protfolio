@@ -54,7 +54,7 @@ const Main = () => {
           <HiOutlineDownload />
         </span>
       </button>
-      <DemoCarousel />
+      <DemoCarousel className={style.demo} />
       {/* <img
         src="https://o.remove.bg/downloads/bb8fcd68-f40b-4456-b4d7-3d5d4f23d5d9/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387-removebg-preview.png"
         alt=""

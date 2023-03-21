@@ -17,3 +17,24 @@ li:hover{
     color: black;
     cursor: pointer;
 }
+
+ @media (max-width: 480px) {
+    .mainheadnav {
+      text-align: center;
+    }
+
+     .ulist {
+      flex-direction: column;
+    }
+    .mainheadnav{
+        flex-direction: column;
+    }
+
+.llist{
+    
+        margin: 0.1rem 0;
+      
+}} 
+
+
+ 
