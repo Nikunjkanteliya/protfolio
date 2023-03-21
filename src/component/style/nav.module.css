@@ -1,0 +1,19 @@
+.mainheadnav {
+     background-color: #2836b1;
+     padding: 1rem;
+     color: #fff;
+}
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.ulist{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -1rem;
+}
+li:hover{
+    color: black;
+    cursor: pointer;
+}
