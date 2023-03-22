@@ -32,7 +32,7 @@ const Main = () => {
           <AiFillInstagram />
         </Link>
       </div>
-      <div className={style.intro}>
+      <div className={style.intro} id={"open0"}>
         <span className={style.hello}> Hello,</span>
         <span className={style.pass}>I`m passionate about</span>
         <span className={style.web}>

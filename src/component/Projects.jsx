@@ -8,7 +8,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const Projects = () => {
   return (
     <div>
-      <span className={style.animate}> Projects</span>
+      <span className={style.animate} id={"open3"}> Projects</span>
 
       <div className={style.card}>
         <div className={style.cardin}>

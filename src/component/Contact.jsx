@@ -15,7 +15,7 @@ const Contact = () => {
   }
   return (
     <div>
-      <span className={style.animate}> Contact</span>
+      <span className={style.animate} id={"open4"}> Contact</span>
 
       <div className={style.formmain}>
         <form className={style.form} onSubmit={handleSubmit}>

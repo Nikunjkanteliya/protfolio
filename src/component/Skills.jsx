@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <div>
       <div className={style.maindivskill}>
-        <span className={style.skills}>Skills</span>
+        <span className={style.skills} id={"open2"}>Skills</span>
         <div className={style.skillicons}>
           <span className={style.mar}>
             <FaReact style={{ fontSize: "40px" }} /> <br />

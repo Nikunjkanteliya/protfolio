@@ -4,11 +4,14 @@ import { FaLaptopCode } from "react-icons/fa";
 import { BsPeopleFill } from "react-icons/bs";
 import { FaLightbulb } from "react-icons/fa";
 import { BsFillCupHotFill } from "react-icons/bs";
+
+
 const About = () => {
   return (
     <div>
+    
       <div className={style.maindivabout}>
-        <span className={style.about}>About Me</span>
+        <span className={style.about} id={"open"} >About Me</span>
         <p className={style.aboutpt}>
           {" "}
           As a front end developer, I am passionate about creating visually
@@ -89,6 +92,7 @@ const About = () => {
           </div>
         </div>
       </div>
+     
     </div>
   );
 };
