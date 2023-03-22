@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="maindiv">
       <BrowserRouter>
         <Switch>
           <Route path={"/"} exact>
